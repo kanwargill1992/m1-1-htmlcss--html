@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [False] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [False]
 
 ```html
 <ul>
@@ -14,19 +14,32 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [True ] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+Screen Reader is a assistive technology which uses text to speech engine to translate screen information into speech. Screen readers are important because it makes websites more accessible to millions of people with visual disability. Here are few statistics of people in US using screen readers.
+-Population of US is 326 million[https://www.census.gov/programs-surveys/popest.html]
+-88.5% of the US population uses internet[https://www.internetlivestats.com/internet-users/us/]
+-2.3% of US population has visual impairment.[https://www.nfb.org/resources/blindness-statistics]
+-54% of them uses internet.[https://interactiveaccessibility.com/accessibility-statistics]
+-89.2% of people that uses screen readers are disabled .[https://webaim.org/projects/screenreadersurvey7/#related]
+88.5% of 326 million = 288.5 million and 2.3% of 326 million = 7.5 million. And 54% of 7.5 million = 4 million 
+so 4 million visually disabled people in US uses internet.
+
+Ref-https://en.wikipedia.org/wiki/Screen_reader
+   -https://ux.stackexchange.com/questions/57340/percentage-of-screen-readers-users-in-usa
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
+Ans-<img> tags will be used
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+Ans-Here we can use <ol>, <ul> for the lists and <a> will provide links.
 
 c) You want to sell designer hats. You need to receive orders from the user.
+Ans- <form> will be used to receive orders.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
@@ -34,22 +47,22 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` anchor tag
 
-b) `ol`
+b) `ol` ordered list
 
-c) `ul`
+c) `ul` unordered list
 
-d) `li`
+d) `li` list item
 
-e) `tr`
+e) `tr` table row 
 
-f) `th`
+f) `th` table heading 
 
-g) `td`
+g) `td` table data
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
-
+Ans- `td` elemts are children of `tr` and `tr` is children of `table` element.
 ## Q8 - What is the difference between td and th?
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
