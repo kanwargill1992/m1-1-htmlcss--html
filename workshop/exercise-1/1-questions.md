@@ -42,9 +42,9 @@ c) You want to sell designer hats. You need to receive orders from the user.
 Ans- <form> will be used to receive orders.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
-
+Ans- It is not valid to put a `BUTTON` tag inside a `BUTTON` element.
 ## Q5 - What is the most generic tag you can use?
-
+Ans `HTML` and `body` tags are the most generic tags we can use.
 ## Q6 - What do the following achronyms stand for?
 
 a) `a` anchor tag
@@ -64,13 +64,15 @@ g) `td` table data
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 Ans- `td` elemts are children of `tr` and `tr` is children of `table` element.
 ## Q8 - What is the difference between td and th?
-
+ANs- `td` represents table data whereas `th` represents table heading.
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
-
+Ans- `h1` is bigger
 ## Q10 - In which situation can you use self closing tags?
-
+Ans-While putting a image on the webpage we use `img` or when we have to provide a line break `br`.
 ## Q11 - What is autofilling and why is it important?
-
+Ans- Auto filling is a function which prefills a field mostly the forms automatically. If we allow some browsers saves our information to be used later and save a lot of time.[https://en.wikipedia.org/wiki/Autofill]
 ## Q12 - Which attributes are always present in an img element?
+Ans- `src` and `alt` are always present in an img element.
 
 ## Q13 - Which attribute is always present for an anchor tag?
+Ans- `href` is always present for an anchor tag.
